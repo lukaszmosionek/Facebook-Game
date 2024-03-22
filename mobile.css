@@ -1,0 +1,13 @@
+.container{
+	margin-top: 10px;
+}
+.box{
+	width: 100%;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.box.wynik{
+	height: 880px;
+}

@@ -1,0 +1,96 @@
+﻿<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link media="only screen and (max-device-width: 480px)"href="mobile.css" type="text/css" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+</head>
+<div class="loading">Loading...</div>
+<div class="container">	
+			<div  class="box wynik wikipedia">
+				<div class="hasztagi">#WikiJa #WikiFakty</div>
+				<div class="text">Co mówi o tobie Wikipedia?</div>
+				<div class="text2">Zaufaj mi, to wiarygodne źródło!</div>	
+				<img class="js-share-facebook img-responsive" onClick="share_img('wikipedia');" src="share.gif"> 
+				<div class="result">
+					<br><br><br><br>
+					Wynik Cię zszokuję!
+					<img src="loader.gif">
+				</div>			
+				<img class="img-result" src="imgs/co-mowi-o-tb-wikipedia1.gif">				
+				<img onClick="try_again('wikipedia')" src="try-again.gif"> 									
+			</div>
+			
+
+			
+			<div  class="box wynik mean">
+				<div class="hasztagi">#AngryLevel #Złośliwy</div>
+				<div class="text">Poziom twojej złośliwości?</div>
+				<div class="text2">Zaufaj mi, to wiarygodne źródło!</div>	
+				<img class="js-share-facebook" onClick="share_img('mean');"  src="share.gif"> 
+				<div class="result">
+					<br><br><br><br>
+					Wynik Cię zszokuję!
+					<img src="loader.gif">
+				</div>			
+				<img class="img-result" src="imgs/poziom-twojej-zloscliwosci1.gif">				
+				<img onClick="try_again('mean')" src="try-again.gif"> 									
+			</div>
+			
+			<div  class="box wynik one-world">
+				<div class="hasztagi">#Jednoslowo #Maruda</div>
+				<div class="text">Jedno słowo które najlepiej Cię opisuje</div>
+				<div class="text2">Zaufaj mi, to wiarygodne źródło!</div>	
+				<img class="js-share-facebook" onClick="share_img('one-world');" src="share.gif"> 
+				<div class="result">
+					<br><br><br><br>
+					Wynik Cię zszokuję!
+					<img src="loader.gif">
+				</div>			
+				<img class="img-result" src="imgs/jedno-slowo-ktore-najlepiej-cie-opisuje1.gif">				
+				<img onClick="try_again('one-world')" src="try-again.gif"> 									
+			</div>
+
+			<div class="box card" id="wikipedia">
+				<img class="responsive"  src="https://d3d6oiinyfmfyb.cloudfront.net/content/0d9ac105-a39f-4413-a1f5-e689cbd988a1">
+				<div class="text">Co mówi o tobie Wikipedia?</div>
+				<span class="label">
+				  😍Hot
+				</span>
+
+			</div>
+			
+			<div class="box card" id="mean">
+				<img class="responsive"  src="https://d3d6oiinyfmfyb.cloudfront.net/content/58d328d6-88d6-46f6-9904-cc3f74b1f2cf">
+				<div class="text">Jak złośliwa jest twoja osobowośc?</div>
+				<span class="label">
+				  😍Hot
+				</span>
+
+			</div>
+			
+			
+			
+			<div class="box card" id="one-world">
+				<img class="responsive"  src="https://d3d6oiinyfmfyb.cloudfront.net/content/1e2c6e24-9078-4664-8276-4f600cba3297">
+				<div class="text">Jedno słowo które najlepiej Cię opisuje?</div>
+				<span class="label">
+				  😍Hot
+				</span>
+
+			</div>
+			
+</div>
+
+
+
+<script src="https://connect.facebook.net/en_US/fbinstant.6.2.js"></script>
+
+<script src="fbLoader.js"></script>
+<script src="jquery.js"></script>
+<script src="style.js"></script>
+
+
+<div id="fb-root"></div>
